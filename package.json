@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "nodemon": "nodemon auth.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "html": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.5.3",
+    "multer": "^1.4.5-lts.1",
+    "stripe": "^14.1.0"
+  }
+}
